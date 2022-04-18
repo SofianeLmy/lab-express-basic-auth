@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 'use strict';
 
 const path = require('path');
@@ -7,6 +8,7 @@ const logger = require('morgan');
 const sassMiddleware = require('node-sass-middleware');
 const serveFavicon = require('serve-favicon');
 const baseRouter = require('./routes/base');
+
 
 const app = express();
 
